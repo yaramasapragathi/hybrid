@@ -16,9 +16,9 @@ public class store {
 	WebElement store;
 	@FindBy(xpath="//*[@id=\"app-container\"]/div/main/ol/li[2]/a")
 	WebElement topdeal;
-	@FindBy(xpath="//*[@id=\"content\"]/div[3]/div[2]/div/a/img")
+	@FindBy(xpath="//*[@id=\"page_content\"]/div/ul[1]/div/div/ul/li[1]/a")
 	WebElement deal;
-	@FindBy(xpath="//*[@id=\"content\"]/div[3]/div/ul/li[1]/div/div[2]/a/div[2]/img")
+	@FindBy(xpath="//*[@id=\"content\"]/div[3]/div/ul/li[1]/div/a[1]")
 	WebElement product;
 	
 	public WebElement store1()
